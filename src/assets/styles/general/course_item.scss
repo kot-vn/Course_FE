@@ -1,0 +1,15 @@
+.course-item img {
+  transition: 0.5s;
+}
+.course-item small {
+  color: #06bbcc;
+}
+.course-item h5 {
+  font-weight: bold;
+}
+.course-item:hover img {
+  transform: scale(1.1);
+}
+.course-title {
+  min-height: 75px;
+}

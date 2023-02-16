@@ -1,0 +1,17 @@
+{   
+    "courses":[
+        {
+            "id":1,
+            "name":"Go Tutorials",
+            "description":"A full-fledged coding workspace where you can type out and run your code against premade test cases and look at hints if you need help."
+        }
+    ],
+    "lessons": [
+        {
+            "id":1,
+            "name":"AlgoExpert | Ace the Coding Interviews",
+            "youtube_url":"https://www.youtube.com/watch?v=eGE-tFalwpA",
+            "description":"Written solutions in six popular programming languages (JavaScript, Python, C++, Java, C#, and Go"
+        }
+    ]
+}

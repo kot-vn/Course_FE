@@ -1,0 +1,1256 @@
+{
+  "users": [
+    {
+      "fullName": "yasuo",
+      "email": "yasuo@gmail.com",
+      "password": "123456",
+      "id": 1,
+      "courses": [
+        {
+          "id": 1,
+          "courseID": 1,
+          "lessons": [
+            {
+              "id": 1,
+              "lesson_id": 1,
+              "count": [],
+              "qualified": true
+            },
+            {
+              "id": 2,
+              "lesson_id": 2,
+              "count": [],
+              "qualified": true
+            },
+            {
+              "id": 3,
+              "lesson_id": 3,
+              "count": [
+                0.5,
+                0.7
+              ],
+              "qualified": false
+            },
+            {
+              "id": 4,
+              "lesson_id": 4,
+              "count": [
+                0.1,
+                0.7
+              ],
+              "qualified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "talon",
+      "email": "talon@gmail.com",
+      "password": "123456",
+      "confirmPassword": "12gg6",
+      "id": 2
+    },
+    {
+      "fullName": "hecarim",
+      "email": "hecarim@gmail.com",
+      "password": "12345678@Ab",
+      "id": 3
+    },
+    {
+      "fullName": "leesin",
+      "email": "leesin@gmail.com",
+      "password": "12345678@Ab",
+      "id": 4
+    },
+    {
+      "fullName": "maokai",
+      "email": "maokai@gmail.com",
+      "password": "12345678@A",
+      "id": 5
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "des": "HTML là gì? ... HTML viết tắt của Hypertext Markup Language là ngôn ngữ lập trình dùng để xây dựng và cấu trúc lại các thành phần có trong Website. HTML tạm dịch ...",
+      "img": "https://i.ytimg.com/vi/pQN-pnXPaVg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTalVlG2xP7ZJkkNfRgYnhPEIhXg",
+      "category": "front-end"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "des": "CSS là gì? ... CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ ...",
+      "img": "https://i.ytimg.com/vi/1Rs2ND1ryYc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2kAs151asfndUB6vMP8UUi6bTug",
+      "category": "front-end"
+    },
+    {
+      "id": 3,
+      "name": "Boodtrap 4",
+      "des": "Bootstrap là một framework bao gồm các HTML, CSS và JavaScript template dùng để phát triển website chuẩn responsive.",
+      "img": "https://i.ytimg.com/vi/-qfEOE4vtxE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3xc7-gQuo-ru9gbtfdQnlmVnKjg",
+      "category": "front-end"
+    },
+    {
+      "id": 4,
+      "name": "Tailwind",
+      "des": "Tailwind CSS là gì ? ... Thì nó là một utility-first CSS framework, nó cũng giống như Bootstrap, nó có những class built-in mà chúng ta có thể dùng. Tailwind CSS ...",
+      "img": "https://i.ytimg.com/vi/-VQhSM77_HA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClX8lFY0T_TGnFgurbmgkujJO61w",
+      "category": "front-end"
+    },
+    {
+      "id": 5,
+      "name": "Node JS",
+      "des": "“Node.js là một JavaScript runtime được build dựa trên engine JavaScript V8 của Chrome. Node.js sử dụng kiến trúc hướng sự kiện event-driven, mô ...",
+      "img": "https://i.ytimg.com/vi/Oe421EPjeBE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXCkN1Cu4rFO_0Z0kFmQTe1-xRJQ",
+      "category": "back-end"
+    },
+    {
+      "id": 6,
+      "name": "Ruby",
+      "des": "Ruby là ngôn ngữ lập trình kịch bản bởi mã lệnh của Ruby có thể chạy trực tiếp bởi máy tính mà không cần phải biên soạn thành một tệp thực thi tệp tin .exe trên ...",
+      "img": "https://i.ytimg.com/vi/t_ispmWmdjY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5FKlz__Yuq1PPEW33Ryvf4kpnHA",
+      "category": "back-end"
+    },
+    {
+      "id": 7,
+      "name": "PHP",
+      "des": " PHP là viết tắt của cụm từ Personal Home Page nay đã được chuyển thành Hypertext Preprocessor. Hiểu đơn giản thì PHP là một ngôn ngữ lập trình ...",
+      "img": "https://i.ytimg.com/vi/OK_JCtrrv-c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvAzjyO06ZHMR1cdvagNJZt88rOw",
+      "category": "back-end"
+    },
+    {
+      "id": 8,
+      "name": "Ruby On Rails",
+      "des": "Ruby on Rails là một web framework mã nguồn mở được thiết kế để phát triển các ứng dụng Ruby và cho phép chúng chạy như một trang web thực sự. Rails là cách gọi ...",
+      "img": "https://i.ytimg.com/vi/t_ispmWmdjY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5FKlz__Yuq1PPEW33Ryvf4kpnHA",
+      "category": "back-end"
+    }
+  ],
+  "tiptrick": [
+    {
+      "id": 1,
+      "name": "Vue JS",
+      "des": "Vue has become a popular framework for web development and with the recent changes made in Vue 3, I've decided to create ...",
+      "img": "https://i.ytimg.com/vi/iVnn21cAa3M/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqRzpPxuod0Bj2YDqhAsteYMkLuQ"
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "des": "In this video I will go over 3 tips and tricks that will improve your react skills by a lot. At the end I also go on a tangent about ...",
+      "img": "https://i.ytimg.com/vi/8jx96lzHNJE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqsed3P4L1pzbj3jCbMKN4c1Pjsg"
+    },
+    {
+      "id": 3,
+      "name": "CSS",
+      "des": "In this episode we are going to take a look at 10 awesome css tricks that you probably didn't know! Also excited to announce my .",
+      "img": "https://i.ytimg.com/vi/l_AUK0Z6D68/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1Z0pEOTOV2vb5ovnA5A35abTPtw"
+    },
+    {
+      "id": 4,
+      "name": "Ruby On Rails",
+      "des": "In this episode, we will go through some of the tips and tricks that we often take for granted. We will be looking at nested routes, ...",
+      "img": "https://i.ytimg.com/vi/j9bYzwqNHF0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGKj78ddYRgNwg-gfiXS-ErGgyqg"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "name": "Ruby - Part 1",
+      "des": "This is description",
+      "img": "https://i.ytimg.com/vi/4PLg-Oe3MfA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBuYdpe5BCIlLB4o68i8tiOgZIzcQ",
+      "video": "wkNR1hG4yOk",
+      "course_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ruby - Part 1",
+      "des": "This is description",
+      "img": "https://i.ytimg.com/vi/4PLg-Oe3MfA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBuYdpe5BCIlLB4o68i8tiOgZIzcQ",
+      "video": "4PLg-Oe3MfA",
+      "course_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Ruby - Part 1",
+      "des": "This is description",
+      "img": "https://i.ytimg.com/vi/4PLg-Oe3MfA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBuYdpe5BCIlLB4o68i8tiOgZIzcQ",
+      "video": "Bx2mFSsrucM",
+      "course_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Ruby - Part 1",
+      "des": "This is description",
+      "img": "https://i.ytimg.com/vi/4PLg-Oe3MfA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBuYdpe5BCIlLB4o68i8tiOgZIzcQ",
+      "video": "lKUR4mu1M-U",
+      "course_id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "This is perfection.  One of the most beautiful EDM songs in the world.",
+      "children": [
+        {
+          "content": "Yup bro love it!"
+        },
+        {
+          "content": "Love it, Do you know another song like this bro?"
+        },
+        {
+          "content": "My opinion its same :')"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "The build-up of the beats are awsome man, keep it up Xomu",
+      "children": [
+        {
+          "content": "you're the masterpiece"
+        },
+        {
+          "content": "This is perfection.  One of the most beautiful EDM songs in the world."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": "3:02 The rise in the pitch is fire 🔥",
+      "children": []
+    },
+    {
+      "id": 4,
+      "content": "I've heard it so many times, but I don't get bored, it's great. Thank the author very much. ",
+      "children": [
+        {
+          "content": "Chủ kênh là người Việt =)))"
+        },
+        {
+          "content": "Me he enamorado completamente de esta canción!!!"
+        },
+        {
+          "content": "I like that! :D"
+        }
+      ]
+    },
+    {
+      "content": "Thanks to the quarantine isolation I found this Drama.  and fell in love with this one. ",
+      "children": [],
+      "id": 5
+    },
+    {
+      "content": "I Can't tell because I'm drunk",
+      "children": [],
+      "id": 6
+    },
+    {
+      "content": "",
+      "children": [],
+      "id": 7
+    },
+    {
+      "content": "xhdfh",
+      "children": [],
+      "id": 8
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How are links defined in an <a> tag?",
+      "answers": {
+        "answer_a": "Href",
+        "answer_b": "Src-link",
+        "answer_c": "Src",
+        "answer_d": "Hlink",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 1
+    },
+    {
+      "question": "There are ____ different heading tags in HTML",
+      "answers": {
+        "answer_a": "4",
+        "answer_b": "7",
+        "answer_c": "6",
+        "answer_d": "5",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 2
+    },
+    {
+      "question": "All elements are identified by their __________ and are marked up using either start tags and end tags or self-closing tags",
+      "answers": {
+        "answer_a": "Attribute Names",
+        "answer_b": "Tag Names",
+        "answer_c": "Class Names",
+        "answer_d": "None of the mentioned",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_b",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 3
+    },
+    {
+      "question": "Which of the following is not a style tag?",
+      "answers": {
+        "answer_a": "<b>",
+        "answer_b": "All are style tags",
+        "answer_c": "<i>",
+        "answer_d": "<tt>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_b",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 4
+    },
+    {
+      "question": "Which of the following is true about HTML 5?",
+      "answers": {
+        "answer_a": "HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1.",
+        "answer_b": "HTML5 is a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG).",
+        "answer_c": "HTML5 is a standard for structuring and presenting content on the World Wide Web",
+        "answer_d": "All of These",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 5
+    },
+    {
+      "question": "A homepage is __________",
+      "answers": {
+        "answer_a": "an index of encyclopedia articles",
+        "answer_b": "the first page of a website",
+        "answer_c": "required for access to the Internet",
+        "answer_d": "where all Internet data is stored",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_b",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 6
+    },
+    {
+      "question": "How can you make A bulleted list with numbers?",
+      "answers": {
+        "answer_a": "<dl>",
+        "answer_b": "<ul>",
+        "answer_c": "<ol>",
+        "answer_d": "<list>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 7
+    },
+    {
+      "question": "Which tag inserts a line horizontally on your web page?",
+      "answers": {
+        "answer_a": "<hr>",
+        "answer_b": "<line direction=\"horizontal\">",
+        "answer_c": "<tr>",
+        "answer_d": "<line>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 8
+    },
+    {
+      "question": "What is cite tag in HTML5?",
+      "answers": {
+        "answer_a": "<cite title\"value\">Some Text Here</cite>",
+        "answer_b": "<cite title:\"value\">Some Text Here</cite>",
+        "answer_c": "<cite title=\"value\">Some Text Here</cite>",
+        "answer_d": null,
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 9
+    },
+    {
+      "question": "What is the HTML Tag for the largest heading",
+      "answers": {
+        "answer_a": "<h6>",
+        "answer_b": "<head>",
+        "answer_c": "<h1>",
+        "answer_d": "<heading>",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": "answer_c",
+      "explanation": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy",
+      "id": 10
+    }
+  ],
+  "apiCourses":[
+    {
+      "kind": "youtube#searchListResponse",
+      "etag": "Fb4tuQlbsDD3K493-qY2F55Vsuc",
+      "nextPageToken": "CBQQAA",
+      "regionCode": "VN",
+      "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 20
+      },
+      "items": [
+        {
+          "kind": "youtube#searchResult",
+          "etag": "poyc1TfodIFOmHF2x5ksAm8GNms",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "zOjov-2OZ0E"
+          },
+          "snippet": {
+            "publishedAt": "2020-04-21T13:45:02Z",
+            "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+            "title": "Introduction to Programming and Computer Science - Full Course",
+            "description": "In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "freeCodeCamp.org",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-04-21T13:45:02Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "RzMTuoj0rGKl9Xyaq-ay1x4MoDk",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "2lVDktWK-pc"
+          },
+          "snippet": {
+            "publishedAt": "2022-02-21T13:00:02Z",
+            "channelId": "UC29ju8bIPH5as8OGnQzwJyA",
+            "title": "The Programming Language Guide",
+            "description": "This is NOT another annoying top 10 programming language video. We will talk about how programming languages work ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/2lVDktWK-pc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/2lVDktWK-pc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/2lVDktWK-pc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Traversy Media",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-02-21T13:00:02Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "kcjbUcvfor48a09Nua9Nm5yh2RU",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "87SH2Cn0s9A"
+          },
+          "snippet": {
+            "publishedAt": "2021-10-07T14:00:10Z",
+            "channelId": "UC4SVo0Ue36XCfOyb5Lh1viQ",
+            "title": "C Tutorial: Full Course for Beginners 🕹️ (FREE)",
+            "description": "C tutorial for beginners full course #C #tutorial #beginners ⭐️Time Stamps⭐️ #1 (00:00:00) C tutorial for beginners 🕹️ #2 ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/87SH2Cn0s9A/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/87SH2Cn0s9A/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/87SH2Cn0s9A/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Bro Code",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-10-07T14:00:10Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "qrBhFkB5jKd06bsyyftv7nrcchk",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "KJgsSFOSQv0"
+          },
+          "snippet": {
+            "publishedAt": "2018-08-15T17:52:20Z",
+            "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+            "title": "C Programming Tutorial for Beginners",
+            "description": "This course will give you a full introduction into all of the core concepts in the C programming language. Want more from Mike?",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/KJgsSFOSQv0/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/KJgsSFOSQv0/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/KJgsSFOSQv0/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "freeCodeCamp.org",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-08-15T17:52:20Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "begMkKvub7mV-LJbFig40psKDo0",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "bJzb-RuUcMU"
+          },
+          "snippet": {
+            "publishedAt": "2018-11-04T01:12:12Z",
+            "channelId": "UCfuSelBtnyCACv0KjG2P1-A",
+            "title": "How To Learn Programming for BEGINNERS! (2019/2020)",
+            "description": "This simple tutorial will teach you how you can learn computer programming and teach yourself code. Learning code is not that ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/bJzb-RuUcMU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "CroatCode",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-11-04T01:12:12Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "kNhQ5MAU6pkviQmBtvlIPCCa3Co",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "gfmRrPjnEw4"
+          },
+          "snippet": {
+            "publishedAt": "2022-04-27T13:08:43Z",
+            "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+            "title": "Assembly Language Programming with ARM – Full Tutorial for Beginners",
+            "description": "Learn assembly language programming with ARMv7 in this beginner's course. ARM is becoming an increasingly popular ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/gfmRrPjnEw4/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/gfmRrPjnEw4/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/gfmRrPjnEw4/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "freeCodeCamp.org",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-04-27T13:08:43Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "qnoSCwd88fJXhC_m9AWzfG9uX-8",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "OK_JCtrrv-c"
+          },
+          "snippet": {
+            "publishedAt": "2018-06-20T18:49:27Z",
+            "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+            "title": "PHP Programming Language Tutorial - Full Course",
+            "description": "Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/OK_JCtrrv-c/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/OK_JCtrrv-c/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/OK_JCtrrv-c/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "freeCodeCamp.org",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-06-20T18:49:27Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "4ELtRKF8vazsPTsNLCEd9HHSWvk",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "6FEYcBPBGOk"
+          },
+          "snippet": {
+            "publishedAt": "2022-07-08T14:00:03Z",
+            "channelId": "UCaO6VoaYJv4kS-TQO_M-N_g",
+            "title": "Software Engineer Ranks Programming Languages",
+            "description": "Welcome to the official programming language tier list. In this video, ex-Google Software Engineer Clement Mihailescu ranks ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/6FEYcBPBGOk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/6FEYcBPBGOk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/6FEYcBPBGOk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Clément Mihailescu",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-07-08T14:00:03Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "I-av4L3LiDNv6SwfJFVTOXJZJHc",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "vLnPwxZdW4Y"
+          },
+          "snippet": {
+            "publishedAt": "2018-08-24T17:11:35Z",
+            "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+            "title": "C++ Tutorial for Beginners - Full Course",
+            "description": "This course will give you a full introduction into all of the core concepts in C++. Want more from Mike? He's starting a coding ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/vLnPwxZdW4Y/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/vLnPwxZdW4Y/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/vLnPwxZdW4Y/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "freeCodeCamp.org",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-08-24T17:11:35Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "wULBWTtGxKSytkU0spQ1ykmeoLo",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "GDOWfzIPgbc"
+          },
+          "snippet": {
+            "publishedAt": "2022-04-03T17:40:36Z",
+            "channelId": "UCWI-ohtRu8eEeDj93hmUsUQ",
+            "title": "This newer programming language is INSANE👩\u200d💻 #technology #programming #software #opensource",
+            "description": "",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/GDOWfzIPgbc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/GDOWfzIPgbc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/GDOWfzIPgbc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Coding with Lewis",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-04-03T17:40:36Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "flMqU39NbIstjEPM-JplsKSo-AQ",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "dwVAR6HClmI"
+          },
+          "snippet": {
+            "publishedAt": "2006-08-29T01:16:14Z",
+            "channelId": "UCTWWm3cUOLhe2IL66if7rIA",
+            "title": "Learning BASIC Programming: Lesson 1",
+            "description": "TURN ON ANNOTATIONS. There are important updates. Lesson 1 of my series of tutorials on learning the BASIC programming ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/dwVAR6HClmI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/dwVAR6HClmI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/dwVAR6HClmI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "jaywalker512",
+            "liveBroadcastContent": "none",
+            "publishTime": "2006-08-29T01:16:14Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "phHFGR2rLUZ79tH65JLXEIy-PJ4",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "poJfwre2PIs"
+          },
+          "snippet": {
+            "publishedAt": "2018-01-18T01:16:19Z",
+            "channelId": "UCxX9wt5FWQUAAz4UrysqK9A",
+            "title": "What Programming Language Should I Learn First?",
+            "description": "What programming language to learn first? Watch this video to find out. My Python tutorials: https://goo.gl/4dQMsJ Keep in touch ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/poJfwre2PIs/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/poJfwre2PIs/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/poJfwre2PIs/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "CS Dojo",
+            "liveBroadcastContent": "none",
+            "publishTime": "2018-01-18T01:16:19Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "QUHiH5XF7FoxG944sGDkhxc9wWA",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "_uQrJ0TkZlc"
+          },
+          "snippet": {
+            "publishedAt": "2019-02-18T15:00:08Z",
+            "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+            "title": "Python Tutorial - Python Full Course for Beginners",
+            "description": "Python tutorial - Python full course for beginners - Go from Zero to Hero with Python (includes machine learning & web ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Programming with Mosh",
+            "liveBroadcastContent": "none",
+            "publishTime": "2019-02-18T15:00:08Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "h9WzmfQBc6eP4_t8Nat7Fn7AQSc",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "HIj8wU_rGIU"
+          },
+          "snippet": {
+            "publishedAt": "2020-02-25T15:43:31Z",
+            "channelId": "UCCktnahuRFYIBtNnKT5IYyg",
+            "title": "How to Start Coding | Programming for Beginners | Learn Coding | Intellipaat",
+            "description": "Intellipaat Python course: https://intellipaat.com/python-for-data-science-training/ Intellipaat Programming courses: ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/HIj8wU_rGIU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Intellipaat",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-02-25T15:43:31Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "IiT1LoBzyn7wkiROwejAthKh4wY",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "MAlSjtxy5ak"
+          },
+          "snippet": {
+            "publishedAt": "2019-09-27T03:12:56Z",
+            "channelId": "UCqi0-4XRvQLBo8E5r8bvPsA",
+            "title": "Every programming tutorial",
+            "description": "thx for the explanation.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/MAlSjtxy5ak/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/MAlSjtxy5ak/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/MAlSjtxy5ak/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Jombo",
+            "liveBroadcastContent": "none",
+            "publishTime": "2019-09-27T03:12:56Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "C03h_URYT5TFKHiHuGEadXLmrUk",
+          "id": {
+            "kind": "youtube#playlist",
+            "playlistId": "PLS1QulWo1RIZlA5oGczk8kY7Eenytc33s"
+          },
+          "snippet": {
+            "publishedAt": "2014-10-26T18:58:06Z",
+            "channelId": "UCs6nmQViDpUw0nuIx9c_WvA",
+            "title": "C Programming Tutorials for Beginners (Complete Series)",
+            "description": "C tutorial for beginners - Learn ANSI, GNU and K/R standard of C programming language with simple and easy examples ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/CCZE4zuOwZM/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/CCZE4zuOwZM/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/CCZE4zuOwZM/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "ProgrammingKnowledge",
+            "liveBroadcastContent": "none",
+            "publishTime": "2014-10-26T18:58:06Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "VVM951n13JK3L1foLInKijxQk9U",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "ZTavfFXOTzY"
+          },
+          "snippet": {
+            "publishedAt": "2022-05-14T18:20:27Z",
+            "channelId": "UCWI-ohtRu8eEeDj93hmUsUQ",
+            "title": "The best 5 programming languages for beginners 👩\u200d💻 #technology #programming #software #business",
+            "description": "",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ZTavfFXOTzY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ZTavfFXOTzY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ZTavfFXOTzY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Coding with Lewis",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-05-14T18:20:27Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "HUZI86SbrtRyMCveFgTGS33cJhY",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "7j91ioSlZ8U"
+          },
+          "snippet": {
+            "publishedAt": "2016-12-07T23:47:24Z",
+            "channelId": "UC5oHS9h-prWeBrBNzXm8rYA",
+            "title": "Mumps Programming Language Tutorial Part 1",
+            "description": "Tutorial Part 1 Additional details at: http://www.cs.uni.edu/~okane/",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/7j91ioSlZ8U/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/7j91ioSlZ8U/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/7j91ioSlZ8U/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Kevin O'Kane",
+            "liveBroadcastContent": "none",
+            "publishTime": "2016-12-07T23:47:24Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "OtU_wbF_MnieL7Xym_9WkXw71YM",
+          "id": {
+            "kind": "youtube#playlist",
+            "playlistId": "PLVlQHNRLflP8_DGKcMoRw-TYJJALgGu4J"
+          },
+          "snippet": {
+            "publishedAt": "2016-08-30T03:51:40Z",
+            "channelId": "UC4o8Fdpv3g_AjgShAeivqpA",
+            "title": "C++ Programming Language | C++ Tutorial",
+            "description": "",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/l0qvxPPISuY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/l0qvxPPISuY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/l0qvxPPISuY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Naresh i Technologies",
+            "liveBroadcastContent": "none",
+            "publishTime": "2016-08-30T03:51:40Z"
+          }
+        },
+        {
+          "kind": "youtube#searchResult",
+          "etag": "uSlUNmuB3_5-yYTxDakdLAX_j7s",
+          "id": {
+            "kind": "youtube#video",
+            "videoId": "kqtD5dpn9C8"
+          },
+          "snippet": {
+            "publishedAt": "2020-09-16T13:00:20Z",
+            "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+            "title": "Python for Beginners - Learn Python in 1 Hour",
+            "description": "This Python tutorial for beginners show how to get started with Python quickly. Learn to code in 1 hour! Watch this tutorial get ...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/kqtD5dpn9C8/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Programming with Mosh",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-09-16T13:00:20Z"
+          }
+        }
+      ]
+    }    
+  ]
+}
